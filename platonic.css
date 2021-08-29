@@ -1,0 +1,46 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container>div {
+  /*background-color: lightgreen;*/
+  margin: 0px;
+  text-align: center;
+}
+
+svg {
+    /*border: dashed 1px lightblue;*/
+	margin: auto;
+	display: block;
+	width: 200px;
+	height: 200px;
+	fill: none;
+	
+}
+
+
+.face{
+	fill: lightgreen;
+	fill: black;
+	fill-opacity: .5;
+	stroke: darkgreen;
+	stroke: red;
+	stroke-width: 2px;
+}
+.label{
+	text-anchor: middle;
+	font-size: 6pt;
+	font-weight: bold;
+}
+
+.chkbox {
+	margin: auto;
+	text-align: left;
+	background-color: darkred;
+}
+  
+h3 {
+	margin: auto;
+	text-align: center;
+}
