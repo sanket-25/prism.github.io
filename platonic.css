@@ -1,6 +1,9 @@
 .flex-container {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .flex-container>div {
@@ -25,8 +28,8 @@ svg {
 	fill: black;
 	fill-opacity: .5;
 	stroke: darkgreen;
-	stroke: red;
-	stroke-width: 2px;
+	stroke: blueviolet;
+	stroke-width: 3px;
 }
 .label{
 	text-anchor: middle;
